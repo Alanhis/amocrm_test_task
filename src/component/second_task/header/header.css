@@ -1,0 +1,15 @@
+.Header_container{
+    display: flex;
+}
+.Header_link{
+    padding-left: 52px;
+    padding-right: 137px;
+    gap:30px;
+    display: flex;
+}
+.Header_logos{
+    padding-left: 48px;
+    display: flex;
+    align-items: flex-start;
+    gap: 31px;
+}
