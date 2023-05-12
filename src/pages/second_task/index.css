@@ -1,0 +1,10 @@
+body {
+  background: #1e1e1e;
+  color: #e4e5ea;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 46px;
+}

@@ -1,13 +1,19 @@
-import logo from './logo.svg';
+import { Routes, Route, Outlet, Link } from "react-router-dom";
 import './App.css';
-import FisrtTask from './component/first_task';
-import SecondTask from './component/second_task';
+import FisrtTask from './pages/first_task';
+import MainPage from "./pages/main";
+import SecondTask from './pages/second_task';
 
 function App() {
   return (
+    <>
 
-    <SecondTask />
-
+      <Routes>
+        <Route index element={<MainPage />} />
+        <Route path="firsttask" element={<FisrtTask />} />
+        <Route path="secondtask" element={<SecondTask />} />
+      </Routes>
+    </>
   );
 }
 
