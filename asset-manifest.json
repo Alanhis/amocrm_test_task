@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amocrm_test_task/static/css/main.f237402c.css",
-    "main.js": "/amocrm_test_task/static/js/main.f96d428c.js",
+    "main.js": "/amocrm_test_task/static/js/main.61f7941a.js",
     "static/js/787.da631439.chunk.js": "/amocrm_test_task/static/js/787.da631439.chunk.js",
     "static/media/inter-all-400-normal.woff": "/amocrm_test_task/static/media/inter-all-400-normal.8c804432e8c67741aac0.woff",
     "static/media/montserrat-all-400-normal.woff": "/amocrm_test_task/static/media/montserrat-all-400-normal.327fab0afc997a2d9b16.woff",
@@ -23,11 +23,11 @@
     "index.html": "/amocrm_test_task/index.html",
     "static/media/twitter.svg": "/amocrm_test_task/static/media/twitter.e06f7254a04fa3f3d6df3f59a01e133a.svg",
     "main.f237402c.css.map": "/amocrm_test_task/static/css/main.f237402c.css.map",
-    "main.f96d428c.js.map": "/amocrm_test_task/static/js/main.f96d428c.js.map",
+    "main.61f7941a.js.map": "/amocrm_test_task/static/js/main.61f7941a.js.map",
     "787.da631439.chunk.js.map": "/amocrm_test_task/static/js/787.da631439.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f237402c.css",
-    "static/js/main.f96d428c.js"
+    "static/js/main.61f7941a.js"
   ]
 }
