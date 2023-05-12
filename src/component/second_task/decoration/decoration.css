@@ -1,5 +1,5 @@
 .purple_ball{
-    position: absolute;
+    position: fixed;
     z-index: -1;
 width: 60px;
 height: 60px;
@@ -12,7 +12,7 @@ filter: blur(5px);
 backdrop-filter: blur(2px);
 }
 .purple_light{
-    position: absolute;
+    position: fixed;
 width: 259px;
 height: 259px;
 left: 602px;
@@ -23,7 +23,7 @@ opacity: 0.5;
 filter: blur(196px);
 }
 .red_ball{
-    position: absolute;
+    position: fixed;
     width: 83px;
     z-index: -1;
     height: 83px;
@@ -35,7 +35,7 @@ filter: blur(196px);
     backdrop-filter: blur(2px);
 }
 .another_red_ball{
-position: absolute;
+position: fixed;
 width: 28px;
 z-index: -1;
 height: 28px;
@@ -48,7 +48,7 @@ filter: blur(2.5px);
 backdrop-filter: blur(2px);
 }
 .red_light{
-    position: absolute;
+    position: fixed;
 width: 311px;
 height: 311px;
 left: -102px;
@@ -57,4 +57,44 @@ z-index: -1;
 background: #961A1A;
 opacity: 0.5;
 filter: blur(196px);
+}
+.yellow_light{
+    display: none;
+}
+.yellow_ball{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .purple_light{
+        left: 258px;
+top: 107px;
+    }
+    .red_light{
+        left: -55px;
+top: 241px;
+    }
+    .yellow_light{
+        position: fixed;
+width: 200px;
+height: 200px;
+left: -66px;
+top: 519px;
+
+background: #FCB045;
+opacity: 0.4;
+filter: blur(196px);
+    }
+    .red_ball{
+        left: 29px;
+top: 402px;
+    }
+    .purple_ball{
+        left: 296px;
+top: 236px;
+
+    }
+    .another_red_ball{
+        left: 278px;
+top: 563px;
+    }
 }

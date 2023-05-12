@@ -4,6 +4,14 @@
     width: 79.16666667%;
     justify-content: space-evenly;
 }
+.text_intro_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.line_about{
+    display:none;
+}
 .main_text{
 width: 362px;
 height: 116px;
@@ -58,6 +66,7 @@ text-align: right;
 background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+text-transform: uppercase;
 
 }
 .text_about_main{
@@ -66,12 +75,13 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 22px;
-/* identical to box height */
 text-align: right;
 letter-spacing: 0.05em;
 text-transform: uppercase;
-/* light text */
 color: #E4E5EA;
+}
+.container_about_main_mobile{
+ display: none;
 }
 .text_about_info{
 font-family: 'Montserrat';
@@ -80,9 +90,8 @@ font-weight: 400;
 font-size: 16px;
 line-height: 20px;
 text-align: right;
-
+margin: 0;
 color: #E4E5EA;
-
 }
 .intro_container{
     width: 291px;
@@ -117,4 +126,69 @@ color: #E4E5EA;
     text-align: center;
    
     color: #E4E5EA;
+}
+@media only screen and (max-width: 600px) {
+    .Main_container {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 16px;
+        width: auto;
+        background: radial-gradient(238.53% 189.02% at 3.2% 3.49%, rgba(255, 246, 233, 0.1) 0%, rgba(26, 29, 35, 0.1) 26.62%, rgba(26, 29, 35, 0.1) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0) 100%);
+        backdrop-filter: blur(7.5px);
+
+    }
+    .main_text{
+        width: auto;
+        height: auto;
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .company_main_text{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .intro_container{
+        width: auto;
+        text-align: initial;
+    }
+    .text_intro_color{
+        text-transform: none;
+    }
+    .about_container{
+        gap:0;
+        width: auto;
+        justify-content: flex-start;
+    }
+    .text_intro_container{
+        justify-content: flex-start;
+    }
+    .text_about_info{
+        display: none;
+    }
+    .text_about_main{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        line-height: 16px;
+        padding-left: 5px;
+        display: none;
+    }
+    .container_about_main_mobile{
+        display: flex;
+    }
+    .line_about{
+        border: none;
+        display: block;
+        width: 10px;
+        height: 1px;
+        background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+        margin: 0;
+    }
+    .button{
+        display: none;
+    }
 }

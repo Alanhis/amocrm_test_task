@@ -2,7 +2,6 @@
 .footer_container{
     display: flex;
     padding-top: 125px;
-    /* width: 79.16666667%; */
     gap: 98px;
 }
 .link_container{
@@ -57,4 +56,27 @@ margin: 0;
 text-align: right;
 color: #E4E5EA;
 
+}
+@media only screen and (max-width: 600px) {
+    .footer_container{
+        flex-direction: column;
+        gap: 30px;
+        background-color: black;
+        padding-top: 0px;
+        padding-bottom: 60px;
+        padding-left: 16px;
+        width: -webkit-fill-available;
+
+    }
+    .policy_text{
+        text-align: start;
+    }
+    .footer_text_info{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .footer_text_main{
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
